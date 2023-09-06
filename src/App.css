@@ -48,12 +48,10 @@ h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 30px;
-    /* font-size: 30px; */
   }
 
 .students-table tr th, .students-table tr td{
     padding: 15px;
-    /* border-collapse: collapse; */
     border-bottom: 2px outset #080e5f;
     
     

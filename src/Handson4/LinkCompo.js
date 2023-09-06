@@ -9,13 +9,13 @@ function LinkCompo() {
       <div className="Nav">
         <ul>
           <li>
-            <NavLink to="/">HOME</NavLink>
+            <NavLink style={({isActive}) =>({color: isActive ? "green" : "darkmagenta"})} to="/">HOME</NavLink>
           </li>
           <li>
-            <NavLink to="/student">STUDENT</NavLink>
+            <NavLink style={({isActive}) =>({color: isActive ? "green" : "darkmagenta"})} to="/student">STUDENT</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">CONTACT</NavLink>
+            <NavLink style={({isActive}) =>({color: isActive ? "green" : "darkmagenta"})} to="/contact">CONTACT</NavLink>
           </li>
         </ul>
       </div>
